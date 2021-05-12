@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+<header>
+<h1>Rock Paper Scissors</h1>
+</header>
+<section class="container">
+    <div class="com">
+        <img id="gif1" src="https://imgur.com/y5ewbYn.gif" style="opacity:0">
+        <img id="gif2" src="https://imgur.com/AJzezps.gif" style="opacity:0">
+        <img id="gif3" src="https://imgur.com/1HOaYJ4.gif" style="opacity:0">
+    </div>
+    <div class="user">
+        <div class="select">
+        <input id="r3" type="button" value="Rock" onclick="rock();results();">
+        <input id="p2" type="button" value="Paper" onclick="paper();results();">
+        <input id="s1" type="button" value="Scissors" onclick="scissors();results();">
+        </div>
+    </div>
+    <div class="results">
+        <h3 id="win" style="opacity:0">You Win!</h3>
+        <h3 id="lost" style="opacity:0">You Lost!</h3>
+        <h3 id="tie" style="opacity:0">It's a Tie!</h3>
+    </div>
+</section>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
